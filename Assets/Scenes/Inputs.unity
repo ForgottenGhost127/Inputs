@@ -248,9 +248,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementspeed: 5
   rotationspeed: 200
-  cameraTrans: {fileID: 927386183}
+  dashSpeed: 15
+  dashDuration: 0.5
+  dashCooldown: 1
   jumpForce: 7
   gravity: -9.8
+  cameraTrans: {fileID: 927386183}
+  maxHoldTime: 1.5
+  holdForce: 9
+  dashColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!65 &1122142911
 BoxCollider:
   m_ObjectHideFlags: 0

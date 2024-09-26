@@ -13,8 +13,8 @@ public class Movement : MonoBehaviour
     public float gravity = -9.8f;
     public Transform cameraTrans;
 
-    public float maxHoldTime = 0.2f;
-    public float holdForce = 5.0f;
+    public float maxHoldTime = 1.5f;
+    public float holdForce = 9.0f;
 
     private float verticalVelocity = 0f;
     private bool isGrounded = true;
